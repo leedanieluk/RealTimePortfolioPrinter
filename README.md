@@ -22,10 +22,10 @@ Interface implementations of the main classes of the system:
 ### Enhancements
 There are many things that could be improved given more time. Some of these are:
 * Writing more tests (both unit and integration tests), specially around the Brownian Motion and Options pricing calculations.
-* Adding good start/stop APIs for the Subscribers and Consumers to shut down systems gracefully and cleaning up resources as needed.
+* Adding good start/stop APIs for the Subscribers and Consumers to shut down gracefully and clean up resources as needed.
 
 ### External libraries used
 * H2 database to store data in-memory
-* Google Guava (to cache hot in-memory DB requests)
-* JUnit (to write unit tests)
-* Apache Commons Math (to compute Cumulative Probability function, asked recruiter for permission)
+* Google Guava to cache hot in-memory DB requests
+* JUnit to write unit tests
+* Apache Commons Math to compute Cumulative Probability function (asked recruiter whether this was ok)
