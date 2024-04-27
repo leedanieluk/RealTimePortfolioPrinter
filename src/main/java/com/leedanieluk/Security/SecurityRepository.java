@@ -3,19 +3,14 @@ package com.leedanieluk.Security;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
-import com.leedanieluk.Portfolio.PortfolioPositionRepository;
 import com.leedanieluk.Portfolio.PortfolioPosition;
+import com.leedanieluk.Portfolio.PortfolioPositionRepository;
 import com.leedanieluk.util.DateUtil;
 
 import java.io.IOException;
 import java.sql.*;
-import java.time.LocalDate;
-import java.time.YearMonth;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 

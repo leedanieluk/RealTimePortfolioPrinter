@@ -5,11 +5,9 @@ import com.leedanieluk.Security.SecurityDefinition;
 import com.leedanieluk.Security.SecurityRepository;
 import org.apache.commons.math3.distribution.NormalDistribution;
 
-import java.sql.SQLException;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 

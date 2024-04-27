@@ -6,16 +6,10 @@ import com.leedanieluk.PortfolioValuation.PortfolioValuationPublisher;
 import com.leedanieluk.PortfolioVisualizer.PortfolioVisualizer;
 import com.leedanieluk.Security.SecurityRepository;
 
-import java.sql.SQLException;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-/**
- * High-level approach (BQ = BlockingQueue)
- * (Market Data Publisher) -> BQ -> (Option Price Calculator) -> BQ -> (Portfolio Result Subscriber)
- */
 public class Main {
-    public static void main(String[] args) throws Exception, SQLException, InterruptedException {
+    public static void main(String[] args) throws Exception {
         // Loads security definitions to in-memory H2 database
         SecurityRepository.loadSecurityDefinitions();
 
