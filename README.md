@@ -2,7 +2,7 @@
 
 The system has been designed as a chain of one-to-one subscribers and publishers using a `java.util.concurrent.LinkedBlockingQueue` as the main data structure for reading and writing the events.
 
-The 2 events of the system are:
+The events of the system are:
 * `com.leedanieluk.MarketData.MarketDataPriceUpdate`
 * `com.leedanieluk.PortfolioValuation.PortfolioValuation`
 
