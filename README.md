@@ -28,4 +28,4 @@ There are many things that could be improved given more time. Some of these are:
 * H2 database to store data in-memory
 * Google Guava to cache hot in-memory DB requests
 * JUnit to write unit tests
-* Apache Commons Math to compute Cumulative Probability function (asked recruiter whether this was ok)
+* Apache Commons Math to compute Cumulative Probability function (asked whether this was allowed)
