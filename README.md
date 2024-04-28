@@ -1,6 +1,6 @@
 ### System Architecture
 
-The system has been designed as a chain of one-to-one subscribers and publishers using a `java.util.concurrent.LinkedBlockingQueue` as the main data structure for reading and writing the events.
+The system has been implemented using a point-to-point messaging design pattern with a chain of subscribers and publishers using a `java.util.concurrent.LinkedBlockingQueue` as the main data structure for reading and writing the events.
 
 The `com.leedanieluk.PortfolioVisualizer.PortfolioVisualizer` subscribes to `com.leedanieluk.PortfolioValuation.PortfolioValuationPublisher` which subscribes to `com.leedanieluk.MarketData.MarketDataPublisher`.
 
